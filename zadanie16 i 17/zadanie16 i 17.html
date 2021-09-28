@@ -1,0 +1,34 @@
+<html> 
+  <head>
+    <div style="color:rgb(156, 0, 247);font-size:35px;">
+
+      <script language="JavaScript">
+        document.write("Za pomocą document.write");
+      </script>
+
+<script>
+  alert("Za pomocą alert boxa");
+</script>
+    <script type="text/javascript"> 
+      function show_confirm()  
+          { 
+            var r=confirm("Naciśnij klawisz"); 
+              if (r==true)  
+                   {  document.write("Zaliczone");  } 
+              else  
+                {  document.write("Zaliczone anyway");  } 
+         } 
+   </script> 
+   <table>
+    <caption>Za pomocą "tr"</caption>
+    <tr>
+        <th scope="col">Do</th>
+        <th scope="col">Tabelki</th>
+    </tr>
+    </table>
+    </div>
+</head>
+<body>
+  <input type="button" onclick="show_confirm()" value="Za pomocą confirm boxa" />  
+</body> 
+</html>
